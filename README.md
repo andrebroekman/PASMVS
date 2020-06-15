@@ -7,6 +7,7 @@ The original ShinySMVS journal article can be downloaded directly from the open 
 [Google Drive](https://drive.google.com/drive/folders/1CRGy5Q0VERUIxS_tlzKp54UTlF36mMiG?usp=sharing); download all 10 part files (total size: 131 Gb) and unzip into a single directory.
 
 ![Collage of different scene configurations](https://github.com/andrebroekman/ShinySMVS/blob/master/splash.jpg)
+ShinySMVS samples illustrating the selection of models, variation in illumination, material properties and camera focal lengths. (a) bunny, bricks, 35 mm, (b) bunny, brushedmetal, 50 mm, (c) teapot, concrete, 35 mm, (d) teapot, ceramic, 50 mm, (e) armadillo, copper, 25 mm, (f) armadillo, grungemetal, 50 mm, (g) dragon, piano, 25 mm, (h) dragon, marble, 50 mm.
 
 ## Data Structure
 A total of 400 scene files are provided, each containing a sub-folder for the rendered images files (45 per scene folder), camera properties and binary segmentation masks and rendered depth maps (PFM file format, see [BlendedMVS GitHub page](https://github.com/YoYo000/BlendedMVS)). The scene files are configured in a 85%-15% test train split with the appropriate scene folder names stored in text files in the root directory.
